@@ -1,0 +1,14 @@
+﻿{
+  "Id": "Z-Au1Y1cwE6_OVAYFcWXPg",
+  "Reference": "T963zeQNOE6wmug06OJIIg/Z-Au1Y1cwE6_OVAYFcWXPg",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "Item Dropdown",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-22T13:35:34.7118052Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T13:35:34.7118052Z"
+}

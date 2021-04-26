@@ -1,0 +1,14 @@
+﻿{
+  "Id": "a-Sdat8820-vhd2i68Oj-w",
+  "Reference": "T963zeQNOE6wmug06OJIIg/a-Sdat8820-vhd2i68Oj-w",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "Click '001'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-21T09:29:31.1102809Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-21T09:29:31.1102809Z"
+}

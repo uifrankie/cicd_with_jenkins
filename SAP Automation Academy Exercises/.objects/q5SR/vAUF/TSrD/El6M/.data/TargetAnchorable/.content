@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="75KVTKfGGUGgyOClK4cEoA" DesignTimeRectangle="1633, 891, 43, 26" ElementType="Button" FriendlyName="'Save'" FullSelectorArgument="&lt;sap id='tbar[0]/btn[11]' /&gt;" FuzzySelectorArgument="&lt;sap id='tbar[0]/btn[11]' check:text='Save' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Create Purchase Order' /&gt;" SearchSteps="Selector" Text="Save" TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0wnOqrmpHXkqwr0aSI5e2bA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="70ea6ef81340823da2aca225bab845ad.png" xmlns="">0RzJWe8mlwkm4uvU9aestRw</imageRef>
+</TargetAnchorable>

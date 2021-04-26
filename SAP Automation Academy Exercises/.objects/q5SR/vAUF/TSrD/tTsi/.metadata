@@ -1,0 +1,17 @@
+﻿{
+  "Id": "tTsiPyWdnkCciIOMMlK91w",
+  "Reference": "T963zeQNOE6wmug06OJIIg/tTsiPyWdnkCciIOMMlK91w",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "Check Mark Button",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-21T09:31:41.0851813Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T03:49:54.36383Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

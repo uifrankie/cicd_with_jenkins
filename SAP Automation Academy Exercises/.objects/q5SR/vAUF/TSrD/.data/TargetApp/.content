@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp ContentHash="KqM66y5Ln06xKPoFEdM2IQ" FilePath="C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Create Purchase Order'/&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">01CpeLMLE_EWMow2C-3zUdQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="b33ad619dc9d0c840b7c5b58da808ea7.png" xmlns="">0ZOItcVTjBkOILNBip5tASw</imageRef>
+</TargetApp>

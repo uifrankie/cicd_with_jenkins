@@ -1,0 +1,13 @@
+﻿{
+  "Id": "ZTfarKHB50qPh6HvZVYyZQ",
+  "Reference": "T963zeQNOE6wmug06OJIIg/ZTfarKHB50qPh6HvZVYyZQ",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/8A0-sNO1ukqWM5R25s3aDw",
+  "Name": "Text",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-23T09:37:10.6253416Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-23T09:37:10.6253416Z"
+}

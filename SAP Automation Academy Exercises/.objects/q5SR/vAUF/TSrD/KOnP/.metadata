@@ -1,0 +1,17 @@
+﻿{
+  "Id": "KOnPDslG_kuKs9bUW5qj3g",
+  "Reference": "T963zeQNOE6wmug06OJIIg/KOnPDslG_kuKs9bUW5qj3g",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "Vendor",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-21T08:14:36.5346183Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-21T08:31:04.7653317Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

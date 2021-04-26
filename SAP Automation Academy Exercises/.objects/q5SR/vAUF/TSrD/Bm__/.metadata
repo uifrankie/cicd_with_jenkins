@@ -1,0 +1,17 @@
+﻿{
+  "Id": "Bm__Aks8qUK3AJEpVEhSoQ",
+  "Reference": "T963zeQNOE6wmug06OJIIg/Bm__Aks8qUK3AJEpVEhSoQ",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "\"Texts\" Tab",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-21T10:45:32.6874644Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T03:49:15.4191003Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

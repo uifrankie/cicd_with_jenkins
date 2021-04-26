@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="5I6K6pX2LkezB9FgXvRZ_w" DesignTimeRectangle="261, 77, 509, 25" ElementType="InputBox" FriendlyName="'TextField Short'" FullSelectorArgument="&lt;sap id='usr/txtDOCUMENT_TITLE' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/txtDOCUMENT_TITLE' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32770' title='Create note' idx='*' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0RzkVu1h9WUiRq6Gg7cSWzg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="96033806c260aa2e32f8e8dc844c6f94.png" xmlns="">09TLbhArRV0uPlv5xXhfVXA</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,14 @@
+﻿{
+  "Id": "rsmcK4TVtU2bRLcbfGvCrg",
+  "Reference": "T963zeQNOE6wmug06OJIIg/rsmcK4TVtU2bRLcbfGvCrg",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "Title of Note",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-22T14:03:26.5945539Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T14:03:26.5945539Z"
+}

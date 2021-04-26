@@ -1,0 +1,16 @@
+﻿{
+  "Id": "yzL9d285CUq9dovs0G5rRQ",
+  "Reference": "T963zeQNOE6wmug06OJIIg/yzL9d285CUq9dovs0G5rRQ",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/8A0-sNO1ukqWM5R25s3aDw",
+  "Name": "Invoice Date",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-23T09:39:52.991877Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-23T09:39:56.9156675Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+  "Id": "9K9zmu1grEWBlo8ncfzKAg",
+  "Reference": "T963zeQNOE6wmug06OJIIg/9K9zmu1grEWBlo8ncfzKAg",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "ItemTable - Material",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-22T03:55:12.5531463Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T06:04:03.2789927Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

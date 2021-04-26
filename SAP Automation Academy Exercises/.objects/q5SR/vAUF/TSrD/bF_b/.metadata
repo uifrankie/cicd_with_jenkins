@@ -1,0 +1,17 @@
+﻿{
+  "Id": "bF_bAJauIkev2N08AZo0Qw",
+  "Reference": "T963zeQNOE6wmug06OJIIg/bF_bAJauIkev2N08AZo0Qw",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "ItemTable - PO Quantity",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-22T03:55:43.3148072Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T06:04:20.2733863Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

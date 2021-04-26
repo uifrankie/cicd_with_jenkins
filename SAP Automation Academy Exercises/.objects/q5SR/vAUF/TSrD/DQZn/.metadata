@@ -1,0 +1,17 @@
+﻿{
+  "Id": "DQZnvXjIxEu-IRSmbZHw4w",
+  "Reference": "T963zeQNOE6wmug06OJIIg/DQZnvXjIxEu-IRSmbZHw4w",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "ItemTable - Plant",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-22T03:57:50.2649845Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T06:09:00.4978881Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

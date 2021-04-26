@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="5U8tKi045UCGI0W2EsUubQ" DesignTimeRectangle="731, 496, 26, 26" ElementType="Button" FriendlyName="'Button  Copy (Enter)'" FullSelectorArgument="&lt;sap id='tbar[0]/btn[0]' /&gt;" FuzzySelectorArgument="&lt;sap id='tbar[0]/btn[0]' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32770' title='Create note' idx='*' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0UumxcJSu80yLqguT5ByKkg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="d168926246c660eda9b43732a2d0536b.png" xmlns="">0TrBJlgo5CEasH5GzWEnP2A</imageRef>
+</TargetAnchorable>

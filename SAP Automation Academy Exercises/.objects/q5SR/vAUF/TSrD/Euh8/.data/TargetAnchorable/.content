@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="RFlXAY7B30Sfiu13WLs0MQ" DesignTimeRectangle="60, 219, 29, 27" ElementType="Button" FriendlyName="'Button Collapse'" FullSelectorArgument="&lt;sap id='usr/subSUB0:SAPLMEGUI:*/subSUB2:SAPLMEVIEWS:1100/subSUB1:SAPLMEVIEWS:4001/btnDYN_4000-BUTTON' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/subSUB0:SAPLMEGUI:0015/subSUB2:SAPLMEVIEWS:1100/subSUB1:SAPLMEVIEWS:4001/btnDYN_4000-BUTTON' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Create Purchase Order' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0A3Lmh4KSYE-KoQHwSWrSSQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="f4868219713514eb0d0e364b7c8bc27a.png" xmlns="">0P59BElfzg0W4-ZIlor0Lcw</imageRef>
+</TargetAnchorable>

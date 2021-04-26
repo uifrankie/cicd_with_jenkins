@@ -1,0 +1,14 @@
+﻿{
+  "Id": "9WM5wbT8GkyseBMEvgWJLQ",
+  "Reference": "T963zeQNOE6wmug06OJIIg/9WM5wbT8GkyseBMEvgWJLQ",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "'STANDARD 4_0100'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-23T09:23:31.4174828Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-23T09:23:31.4174828Z"
+}

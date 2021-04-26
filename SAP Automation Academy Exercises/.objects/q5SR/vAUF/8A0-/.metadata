@@ -1,0 +1,12 @@
+﻿{
+  "Id": "8A0-sNO1ukqWM5R25s3aDw",
+  "Reference": "T963zeQNOE6wmug06OJIIg/8A0-sNO1ukqWM5R25s3aDw",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/vAUF91EmBUGnz3sZPsNImQ",
+  "Name": "Create Invoice",
+  "Type": "Screen",
+  "Created": "2021-04-23T07:19:25.4156103Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-23T07:19:25.4156103Z"
+}

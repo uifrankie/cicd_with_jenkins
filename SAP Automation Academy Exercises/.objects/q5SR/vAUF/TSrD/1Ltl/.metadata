@@ -1,0 +1,17 @@
+﻿{
+  "Id": "1LtlbRyPck2Sr0RQhYCG9Q",
+  "Reference": "T963zeQNOE6wmug06OJIIg/1LtlbRyPck2Sr0RQhYCG9Q",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "ItemTable - Currency",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-22T05:09:26.1664583Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T05:18:17.2905117Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

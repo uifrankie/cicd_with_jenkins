@@ -1,0 +1,388 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="CreateInvoice" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="846,5385" sap2010:WorkflowViewState.IdRef="CreateInvoice_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ucas="clr-namespace:UiPath.Core.Activities.SAP;assembly=UiPath.UiAutomation.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Core.Activities.SAP</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="CreateInvoice" sap:VirtualizedContainerService.HintSize="830,5220" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="788,66" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ucas:Logon Window="{x:Null}" ConnectionName="SAP S4 HANA 1909" DelayBetweenRetries="500" DisplayName="SAP Logon" sap:VirtualizedContainerService.HintSize="334,137" sap2010:WorkflowViewState.IdRef="Logon_1" Retries="5" SAPLogonPath="C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe" />
+      <ucas:Login SecurePassword="{x:Null}" Window="{x:Null}" Client="804" DisplayName="SAP Login 'saplogon.exe  SAP'" sap:VirtualizedContainerService.HintSize="334,366" sap2010:WorkflowViewState.IdRef="Login_1" IsSecure="False" Language="EN" MultiLogonOptionToChoose="Single" Password="Welcome1" Timeout="5000" Username="S4H_FIN_DEM">
+        <ucas:Login.Target>
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ffb9e295-9dfb-4513-8162-5f10ea421ab7" InformativeScreenshot="7d504c27b18aad52a7a04e690e356b87" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='SAP' /&gt;">
+            <ui:Target.TimeoutMS>
+              <InArgument x:TypeArguments="x:Int32" />
+            </ui:Target.TimeoutMS>
+            <ui:Target.WaitForReady>
+              <InArgument x:TypeArguments="ui:WaitForReady" />
+            </ui:Target.WaitForReady>
+          </ui:Target>
+        </ucas:Login.Target>
+      </ucas:Login>
+    </Sequence>
+    <ucas:CallTransaction DisplayName="Call Transaction 'saplogon.exe SAP'" sap:VirtualizedContainerService.HintSize="788,159" sap2010:WorkflowViewState.IdRef="CallTransaction_1" Transaction="fb60">
+      <ucas:CallTransaction.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="113a63d7-ff56-4128-9c6b-2d53e788bd60" InformativeScreenshot="7413cada2edb409c46e666766c78de4a" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' omit:title='SAP Easy Access  -  User Menu for S4H_AA' idx='*' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ucas:CallTransaction.Target>
+    </ucas:CallTransaction>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Create Invoice" sap:VirtualizedContainerService.HintSize="788,4823" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="754,4534" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Int32" Name="TableRow">
+                <Variable.Default>
+                  <Literal x:TypeArguments="x:Int32" />
+                </Variable.Default>
+              </Variable>
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" sap2010:Annotation.AnnotationText="" ClickBeforeMode="None" DisplayName="Type Into 'Vendor'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="712,257" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="Simulate" Text="17386001">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="M3L1CWsqo0K4hCJ6fxeiQQ" DesignTimeRectangle="182, 244, 199, 25" ElementType="InputBox" FriendlyName="'CTextField Account'" FullSelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/ctxtINVFO-ACCNT' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/ctxtINVFO-ACCNT' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMsAAAAdCAYAAAAEnJgBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIBSURBVHhe7Zw9S8NAHMbTzcHBz+BHcHBz9QOIUJwFBweh4KIgDg4OdXMQxMEXBHVRwcFBKCj4hiK6KYq7L6uKbTx50hye5zVN0zjkn+cHD0ku107/X+8u9OIVCgVlx/d9hslUXHWMuPomjedqZBgJ+TdZOgaXGUZEZjavgiNkse81S9fQmuod31VT6xfRshCSdcw6hiyt8v5ZU2e3T6p/el+NLhyrt48qZSEyaVcWk4HZAzW5+jPCUBYiijRlubx/UT2lneayeJ4XnhGSHdL80a/WvlRncYWyEJmkPUPC91EWIhLKQkhMomQ5v3sO7kdl4+gh7F0HbZSFiMSuYxOIUCxXwqu/lLdvgphQFiIWykJITKJkgQi4r2OLQ1lIrrDrWAMx+ib2wqs6aOse2QqvKAvJGS5ZIIAtigbClJZOg3PKQnKFSxYIYUugwTpGi0RZSK6gLITExCWLKYSNFgmfQygLyQ0uWYC9mAcQCP31msUFZSFiaSQLMEcQBJJAIBztEUWDfpSFiMSu42aYf4FxCUNZiFhalQVECRNLFkKySNI6hjCYkuFhgCb2fhZCsohZx+3ulLx+fI23U5KQLJKmLENzFTW2eEJZiEzalQVTL4woEGV4/rDx210YRkLaeW8Y1iiYemFEMUX5JQvDSAtkcbUnDd91zIiIq44RV99k8dU3P7r8IFwqKMAAAAAASUVORK5CYII=" InformativeScreenshot="cf68e5606c8ed248d4a3683d8a12c31b.png" Reference="T963zeQNOE6wmug06OJIIg/_FP6MJqrCUG26F25eN_OmQ" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Invoice Date'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="712,226" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="03/03/2021">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="PDceaRp0w0qMQOhhgPiR_Q" DesignTimeRectangle="278, 410, 163, 38" ElementType="InputBox" FriendlyName="'CTextField Invoice'" FullSelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/ctxtINVFO-BLDAT' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/ctxtINVFO-BLDAT' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKcAAAAqCAYAAADWOEvqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVHhe7dKxLUVhAEDhN4lJJGpbSJRaheiMoKPSGoCEViExAT0lEeLlheTmt8AV5T3F9yVng7OapmlIxcypbOZUNnMqmzmVbfX2uRnSkn1tfubn3D25HdKSnd08zs95cH4/pCXaO70bW/uX4/DiYX7OAQt5eV2PneNrc9JjTrLMSZY5yTInWeYky5xkmZMsc5JlTrLMSZY5yTInWeYky5xkmZMsc5JlTrLMSZY5yTInWeYky5xkmZMsc5JlTrLMSZY5yTInWeYky5xkmZOsf+f8WH8PaYment/H9tHVH3NO4xd7w9kJXJ0KNAAAAABJRU5ErkJggg==" InformativeScreenshot="65533ffefd797f442764f58b96155922.png" Reference="T963zeQNOE6wmug06OJIIg/yzL9d285CUq9dovs0G5rRQ" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Reference'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,226" sap2010:WorkflowViewState.IdRef="NTypeInto_3" Text="8000/12">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="z1p81kla3Ean8KyPmHbnQw" DesignTimeRectangle="741, 410, 252, 38" ElementType="InputBox" FriendlyName="'TextField Reference'" FullSelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/txtINVFO-XBLNR' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/txtINVFO-XBLNR' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQAAAAAqCAYAAABcMoWCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD2SURBVHhe7dSxasIAGIVR3/8FukiXgohIKSJBCZXSDh0cfBkNhhB+6ZiCL5B7Dtzp7t9iHMcys8wJgFnwBMAseAJgFjwBMAve4tZ1ZWYZu/f9NADr932ZWcZ+z5dpAJZvmzp8/pjZjNe03/Xyuqr98TQNwN8JzNswDLXdHQQAEgkABBMACCYAEEwAIJgAQDABgGACAMEEAIIJAAQTAAgmABBMACCYAEAwAYBgAgDBBACCCQAEEwAIJgAQTAAgmABAMAGAYAIAwQQAggkABBMACCYAEEwAIJgAQDABgGACAMGeBqBpv+re92Y2411vXW0+mn8BGOsBG88JQogbjEQAAAAASUVORK5CYII=" InformativeScreenshot="1ccc9627aa446df230a35dd5aa952850.png" Reference="T963zeQNOE6wmug06OJIIg/YKSoECwp3k6LLaBZHon_6A" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Amount'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="712,226" sap2010:WorkflowViewState.IdRef="NTypeInto_4" Text="500">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="dwMtVtRN_EydsFvwmfitRw" DesignTimeRectangle="278, 604, 461, 38" ElementType="InputBox" FriendlyName="'TextField Amount'" FullSelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/txtINVFO-WRBTR' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/txtINVFO-WRBTR' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAdEAAAAqCAYAAADs4WH1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEfSURBVHhe7dW9SsMAGIbR3v+qk446OPhfi1GLg7ugKL2URhqTz92kgb7zOfBcw7Po+74kSdLhmagkSWEmKklS2GK360qSJM3Xdb/jiV4tn0qSJM33/vk9nuiyeS1JkjTd7eqljk/Pq1m/jSdaAMBebftTF9crEwWAQ5koAIRMFABCJgoAIRMFgJCJAkDIRAEgZKIAEDJRAAiZKACETBQAQiYKACETBYCQiQJAyEQBIGSiABAyUQAImSgAhEwUAEImCgAhEwWAkIkCQMhEASBkogAQMlEACJkoAIRMFABCJgoAIRMFgJCJAkDIRAEgZKIAEJqd6DAMJUmSpttu2/0TvXl4LkmSNN3lfVNHJ2fTE717XJckSZrv42vzb6J9/QHYTlVWSZ/SmAAAAABJRU5ErkJggg==" InformativeScreenshot="06544c4d11668820e33fda2b5d2f3937.png" Reference="T963zeQNOE6wmug06OJIIg/gnkFx3Tu3kOF2LprC8IqnQ" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' idx='*' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Currency'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="712,226" sap2010:WorkflowViewState.IdRef="NTypeInto_5" Text="USD">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="__Z8TocilEGzV16paWKvdQ" DesignTimeRectangle="830, 604, 88, 38" ElementType="InputBox" FriendlyName="'CTextField Document'" FullSelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/ctxtINVFO-WAERS' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/ctxtINVFO-WAERS' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAqCAYAAAA+lDyEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADoSURBVGhD7dDRSsIAGEBh3/+6oCgwMKiIIdNsKUMKIUJFoehhtrn94l0i4c12rs6B8wJfr67rcG7B4QWH71XVLsqy8o4++B6BL77WkYyn3tGr7c8x+NNwEtd3jzF+m3uLp695XN7ex2T2fgqe5R9h7VaUZTynmeBUgsMJDic4nOBwgsMJDic4nOBwgsMJDic4nOBwgsMJDic4nOBwgsMJDic4nOBwgsMJDic4nOBwgsMJDic4nOBwgsMJDic43Fnwpmm8xYui+B/8qv8Qw5eZt3gymsbFzeAU/HO5iTTLvaM3379/wOvYA+Yebmj2HxQJAAAAAElFTkSuQmCC" InformativeScreenshot="4d2c90f550d1639d46f8d29b4658a766.png" Reference="T963zeQNOE6wmug06OJIIg/fwso89fG5U-qUrJMzjNvwA" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Tax Amount'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="712,226" sap2010:WorkflowViewState.IdRef="NTypeInto_6" Text="100">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="-l3JWxSYakibQA9tMh1CYg" DesignTimeRectangle="278, 701, 252, 38" ElementType="InputBox" FriendlyName="'TextField Tax'" FullSelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/txtINVFO-WMWST' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/txtINVFO-WMWST' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQAAAAAqCAYAAABcMoWCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAECSURBVHhe7dSxTUJhGIVh9sBpHMGEmJhY6Ab29IQY4wQaSyagAtSOFWABO0sLuTcfDHAJ/X+eJzndqd9R3/dlZpkTALPgCYBZ8EZ3L59lZm3vY70/F4Cv08HMWtzNbF3jh0U9vW2HA1BAs35+/+p6uhQASCQAEEwAIJgAQDABgGACAMEEAIIJAAQTAAgmABBMACCYAEAwAYBgAgDBBACCCQAEEwAIJgAQTAAgmABAMAGAYAIAwQQAggkABBMACCYAEEwAIJgAQDABgGACAMEEAIIJAAQTAAh2MQD3r99lZm1uMt/U1ePifABunzdlZm3vfbUbDsD/oSsza3uHrhsIQF9HGfqeKtJjdKYAAAAASUVORK5CYII=" InformativeScreenshot="87a057892aba478d36317bfb6f7a1f52.png" Reference="T963zeQNOE6wmug06OJIIg/-Kbd5AelN0yqCmlnhxMl6w" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Text'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="712,226" sap2010:WorkflowViewState.IdRef="NTypeInto_7" Text="Tax 20%">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="B8wSIDQ9GEyHzsOMApdcpA" DesignTimeRectangle="278, 750, 685, 37" ElementType="InputBox" FriendlyName="'CTextField  Item Text'" FullSelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/ctxtINVFO-SGTXT' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/ctxtINVFO-SGTXT' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAArEAAAApCAYAAAAicHEqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFWSURBVHhe7dY7SoNRGEXRzERwQlooqQKC4lCEYBEkjVPQ2sLCiI8xiPMQouZx/Wz9Cfb3wFqw57BHrbWSJEmSkjKxkiRJims0mT2VJEmS1HPX9+/DiR1fPpYkSZLUY0fTRe2d3dTp/HU4sdv2U5IkSVKPfXyu6+DiYXdiCwAAOrX83tShiQUAIImJBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgzr8Te3L1UpIkSVKPTWbPtX9+uzuxx9NFSZIkST03v3sbTuzXalOSJElSz63W2z8T2+oXpHKrEPuA03IAAAAASUVORK5CYII=" InformativeScreenshot="a16d1fba00008128d57b4a5d5656601d.png" Reference="T963zeQNOE6wmug06OJIIg/ZTfarKHB50qPh6HvZVYyZQ" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Text' - hit Enter" EmptyFieldMode="None" sap:VirtualizedContainerService.HintSize="712,226" sap2010:WorkflowViewState.IdRef="NTypeInto_8" InteractionMode="HardwareEvents" Text="%[k(enter)]">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="B8wSIDQ9GEyHzsOMApdcpA" DesignTimeRectangle="278, 750, 685, 37" ElementType="InputBox" FriendlyName="'CTextField  Item Text'" FullSelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/ctxtINVFO-SGTXT' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/ctxtINVFO-SGTXT' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAArEAAAApCAYAAAAicHEqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFWSURBVHhe7dY7SoNRGEXRzERwQlooqQKC4lCEYBEkjVPQ2sLCiI8xiPMQouZx/Wz9Cfb3wFqw57BHrbWSJEmSkjKxkiRJims0mT2VJEmS1HPX9+/DiR1fPpYkSZLUY0fTRe2d3dTp/HU4sdv2U5IkSVKPfXyu6+DiYXdiCwAAOrX83tShiQUAIImJBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgjokFACCOiQUAII6JBQAgzr8Te3L1UpIkSVKPTWbPtX9+uzuxx9NFSZIkST03v3sbTuzXalOSJElSz63W2z8T2+oXpHKrEPuA03IAAAAASUVORK5CYII=" InformativeScreenshot="a16d1fba00008128d57b4a5d5656601d.png" Reference="T963zeQNOE6wmug06OJIIg/ZTfarKHB50qPh6HvZVYyZQ" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <ucas:ClickToolbarButton ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Click Toolbar Button 'Button  Tree On'" sap:VirtualizedContainerService.HintSize="712,159" sap2010:WorkflowViewState.IdRef="ClickToolbarButton_1" Item="Display Templates   (Shift+F1)">
+              <ucas:ClickToolbarButton.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="8">
+                  <x:String>More (Alt+F12)</x:String>
+                  <x:String xml:space="preserve">Display Templates   (Shift+F1)</x:String>
+                  <x:String xml:space="preserve">Switch Company Code   (F7)</x:String>
+                  <x:String xml:space="preserve">Simulate Document Posting   (F9)</x:String>
+                  <x:String xml:space="preserve">Park Document   (F8)</x:String>
+                  <x:String xml:space="preserve">Call Up Editing Options for Accounting   (Shift+F4)</x:String>
+                </scg:List>
+              </ucas:ClickToolbarButton.Items>
+              <ucas:ClickToolbarButton.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="911855bd-914c-4d48-82c2-8013e5ca01ac" InformativeScreenshot="a306f88f4317c159eada180ea6b07ed5" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;&lt;sap id='tbar[1]/btn[13]' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ucas:ClickToolbarButton.Target>
+            </ucas:ClickToolbarButton>
+            <ucas:ExpandTree ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Expand Tree 'item STANDARD'" sap:VirtualizedContainerService.HintSize="712,159" sap2010:WorkflowViewState.IdRef="ExpandTree_1" Item="Screen variants for items/STANDARD 4_0100               Standard 4">
+              <ucas:ExpandTree.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="16">
+                  <x:String>Screen variants for items</x:String>
+                  <x:String xml:space="preserve">Screen variants for items/RE ABRECHNUNG_0100            RE settlement</x:String>
+                  <x:String xml:space="preserve">Screen variants for items/RE OBJEKTE_0100               RE objects</x:String>
+                  <x:String xml:space="preserve">Screen variants for items/RE VERTRAEGE_0100             RE contracts</x:String>
+                  <x:String xml:space="preserve">Screen variants for items/STANDARD 1_0100               Standard 1</x:String>
+                  <x:String xml:space="preserve">Screen variants for items/STANDARD 2_0100               Standard 2</x:String>
+                  <x:String xml:space="preserve">Screen variants for items/STANDARD 3_0100               Standard 3</x:String>
+                  <x:String xml:space="preserve">Screen variants for items/STANDARD 4_0100               Standard 4</x:String>
+                  <x:String>Account assignment templates for items</x:String>
+                  <x:String>Held documents</x:String>
+                </scg:List>
+              </ucas:ExpandTree.Items>
+              <ucas:ExpandTree.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d8f28a13-6822-4a44-944d-ef57848e0db0" InformativeScreenshot="b7979e90a8327ffc791e37bc3354df18" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;&lt;sap id='shellcont/shell' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ucas:ExpandTree.Target>
+            </ucas:ExpandTree>
+            <uix:NClick ClickType="Double" DisplayName="Click 'STANDARD 4_0100'" sap:VirtualizedContainerService.HintSize="712,166" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="7bGj_HZTUEWSzOpZEZ2jvQ" DesignTimeRectangle="115, 501, 384, 35" FriendlyName="'STANDARD 4_0100'" FullSelectorArgument="&lt;sap id='shellcont/shell' relpath='Screen variants for items/STANDARD 4_0100               Standard 4' /&gt;&lt;sap itemId='Column1' /&gt;" FuzzySelectorArgument="&lt;sap id='shellcont/shell' relpath='Screen variants for items/STANDARD 4_0100               Standard 4' /&gt;&lt;sap itemId='Column1' check:text='STANDARD 4_0100               Standard 4' /&gt;" ImageBase64="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" InformativeScreenshot="be00972abf2c03702a669a240735fc7c.png" Reference="T963zeQNOE6wmug06OJIIg/9WM5wbT8GkyseBMEvgWJLQ" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" Text="STANDARD 4_0100               Standard 4" TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ucas:SelectMenuItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Select Menu Item 'Tree off'" sap:VirtualizedContainerService.HintSize="712,159" sap2010:WorkflowViewState.IdRef="SelectMenuItem_1" Item="Settings/Tree Off">
+              <ucas:SelectMenuItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="50">
+                  <x:String>Document/Change</x:String>
+                  <x:String>Document/Display</x:String>
+                  <x:String>Document/Post</x:String>
+                  <x:String>Document/Save as Completed</x:String>
+                  <x:String>Document/Park</x:String>
+                  <x:String>Document/Hold</x:String>
+                  <x:String>Document/Simulate</x:String>
+                  <x:String>Document/Simulate General Ledger</x:String>
+                  <x:String>Document/Exit</x:String>
+                  <x:String>Edit/Switch Company Code</x:String>
+                  <x:String>Edit/Start search</x:String>
+                  <x:String>Edit/Select held document</x:String>
+                  <x:String>Edit/Delete Held Document</x:String>
+                  <x:String>Edit/Select parked document</x:String>
+                  <x:String>Edit/Delete parked document</x:String>
+                  <x:String>Edit/Cancel</x:String>
+                  <x:String>Goto/Post with Reference</x:String>
+                  <x:String>Goto/Back</x:String>
+                  <x:String>Extras/Error Log</x:String>
+                  <x:String>Extras/Trading Partner</x:String>
+                  <x:String>Extras/Document texts...</x:String>
+                  <x:String>Settings/Tree On</x:String>
+                  <x:String>Settings/Tree Off</x:String>
+                  <x:String>Settings/Editing Options</x:String>
+                  <x:String>Settings/Control Totals</x:String>
+                  <x:String>Environment/Correspondence</x:String>
+                  <x:String>Environment/Complex posting</x:String>
+                  <x:String>Environment/Additional Component</x:String>
+                  <x:String>System/New GUI Window</x:String>
+                  <x:String>System/Close GUI Window</x:String>
+                  <x:String>System/List</x:String>
+                  <x:String>System/Services for Object</x:String>
+                  <x:String>System/Own Spool Requests</x:String>
+                  <x:String>System/Own Jobs</x:String>
+                  <x:String>System/Short Message</x:String>
+                  <x:String>System/Status...</x:String>
+                  <x:String>System/Log Off</x:String>
+                  <x:String>Help/Product Assistance</x:String>
+                  <x:String>Help/SAP Help Portal</x:String>
+                  <x:String>Help/Release Notes</x:String>
+                  <x:String>Help/SAP Support Portal</x:String>
+                  <x:String>Help/Settings...</x:String>
+                  <x:String>Edit/Screen Variant/Select screen variant</x:String>
+                  <x:String>Edit/Screen Variant/Create screen variant</x:String>
+                  <x:String>Edit/Screen Variant/Reset Screen Variant</x:String>
+                  <x:String>Edit/Acct assignment templates/Select account assignment template</x:String>
+                  <x:String>Edit/Acct assignment templates/Save Account Assignment Template</x:String>
+                  <x:String>Edit/Acct assignment templates/Delete acct assg.template</x:String>
+                  <x:String>System/User Profile/Hold Data</x:String>
+                  <x:String>System/User Profile/Set Data</x:String>
+                </scg:List>
+              </ucas:SelectMenuItem.Items>
+              <ucas:SelectMenuItem.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="7b02af1b-574f-49e0-9360-226713c4195c" InformativeScreenshot="8b7c6bd1f7461411ba10a37563ec087a">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ucas:SelectMenuItem.Target>
+            </ucas:SelectMenuItem>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'CTextField  G/L acct'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="712,226" sap2010:WorkflowViewState.IdRef="NTypeInto_9" Text="11001000">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="Q-SkB04e5EW6jaQJZ5MsJA" DesignTimeRectangle="120, 989, 157, 36" ElementType="InputBox" FriendlyName="'CTextField  G/L acct'" FullSelectorArgument="[String.Format(&quot;&lt;sap colTooltip='G/L Account' id='usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE' tableRow='{0}' /&gt;&quot;, TableRow)]" FuzzySelectorArgument="&lt;sap colTooltip='G/L Account' id='usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKEAAAAoCAYAAACW7pqmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADaSURBVHhe7dwxaoVQFEVR5z9LQf2KCqK13GCRNErSRE6zFpwZbHivus22bWX25qZpqrZtq+u66vv+tqbgZcdx1DAMNc9zret6mwh5nQiJEyFxIiROhMSJkDgREidC4kRInAiJEyFxIiROhMSJkDgREidC4kRInAiJEyFxIiROhMSJkDgREidC4kRInAiJEyFxIiROhMSJkDgREidC4kRInAiJ+zPCpxvDZv+5K77rNvXn86lxHG9rlmUpszd3HU7/jvBpzXmeZfbm9n3/eY6fIvUn5HW//wnX+gJalZ8QaAED7wAAAABJRU5ErkJggg==" InformativeScreenshot="8e45d6f094a3ff1c339b40ad9e9ebe59.png" Reference="T963zeQNOE6wmug06OJIIg/exMCSKq1xUmlAt2dWiPykA" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NSelectItem DisplayName="Select Item 'Debit'" sap:VirtualizedContainerService.HintSize="712,166" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Debit">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="3">
+                  <x:String>Credit</x:String>
+                  <x:String>Debit</x:String>
+                  <x:String xml:space="preserve"> </x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable ContentHash="ZLrbZCR1sEGCjG0FRpie9A" DesignTimeRectangle="436, 989, 112, 36" ElementType="DropDown" FriendlyName="'Debit'" FullSelectorArgument="[String.Format(&quot;&lt;sap colTooltip='Debit/Credit ind' id='usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE' tableRow='{0}' /&gt;&quot;, TableRow)]" FuzzySelectorArgument="&lt;sap colTooltip='Debit/Credit ind' id='usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE' /&gt;" ImageBase64="" InformativeScreenshot="c4e9039289ff4653abb0f0ef6d8fa026.png" Reference="T963zeQNOE6wmug06OJIIg/j8x32h4G6kKWVg6De8_q1g" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" Text="Debit" TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" />
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'TextField Amount'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="712,226" sap2010:WorkflowViewState.IdRef="NTypeInto_10" Text="400">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="wCTLJQmeak-2vFG0g65TNA" DesignTimeRectangle="550, 989, 455, 36" ElementType="InputBox" FriendlyName="'TextField Amount'" FullSelectorArgument="[String.Format(&quot;&lt;sap colTooltip='Amount' id='usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE' tableRow='{0}' /&gt;&quot;, TableRow)]" FuzzySelectorArgument="&lt;sap colTooltip='Amount' id='usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAcsAAAAoCAYAAACRpdHfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEKSURBVHhe7dk9qoNgGIRR999kXf6AKeISghYK3wbkDVhcSW4xGzgHZg1PMV1rrczMzOzeOI71eDxqGIZ6v9/VFQDwZVmWK5bP57OO4xBLAPgllgAQiCUABGIJAIFYAkAglgAQiCUABGIJAIFYAkAglgAQiCUABGIJAIFYAkAglgAQiCUABGIJAIFYAkAglgAQiCUABGIJAIFYAkAglgAQiCUABGIJAIFYAkAglgAQiCUABGIJAIFYAkAglgAQiCUABGIJAIFYAkAglgAQ/Itla63MzMzs3jiOVyynaapt26rb973MzMzsXt/3f7Fc17W68zzLzMzM7r1eryuW8zxf8fRZAsCP78/yqA+3ylpiFLZ4bAAAAABJRU5ErkJggg==" InformativeScreenshot="5d5dd34d1453ea75fe9adc64cba925fa.png" Reference="T963zeQNOE6wmug06OJIIg/uROuQ4w_1Eyjes0okfRNdg" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Value Date'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="712,226" sap2010:WorkflowViewState.IdRef="NTypeInto_11" Text="03/03/2021">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="2G0NHde8FUCyEMVQ8DUQPg" DesignTimeRectangle="2036, 989, 157, 36" ElementType="InputBox" FriendlyName="'04/03/2021'" FullSelectorArgument="[String.Format(&quot;&lt;sap colTooltip='Value date' id='usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE' tableRow='{0}' /&gt;&quot;, TableRow)]" FuzzySelectorArgument="&lt;sap colTooltip='Value date' id='usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE' /&gt;" ImageBase64="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" InformativeScreenshot="82931df590fa27581dbefb4a02ae06e3.png" Reference="T963zeQNOE6wmug06OJIIg/_8bAQx3ULkGoby4XUG3POg" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" Text="04/03/2021" TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Value Date'" EmptyFieldMode="None" sap:VirtualizedContainerService.HintSize="712,226" sap2010:WorkflowViewState.IdRef="NTypeInto_12" InteractionMode="HardwareEvents" Text="%[k(enter)]">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="2G0NHde8FUCyEMVQ8DUQPg" DesignTimeRectangle="2036, 989, 157, 36" ElementType="InputBox" FriendlyName="'04/03/2021'" FullSelectorArgument="[String.Format(&quot;&lt;sap colTooltip='Value date' id='usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE' tableRow='{0}' /&gt;&quot;, TableRow)]" FuzzySelectorArgument="&lt;sap colTooltip='Value date' id='usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE' /&gt;" ImageBase64="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" InformativeScreenshot="82931df590fa27581dbefb4a02ae06e3.png" Reference="T963zeQNOE6wmug06OJIIg/_8bAQx3ULkGoby4XUG3POg" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" Text="04/03/2021" TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uta:VerifyControlAttribute KeepScreenshots="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="712,208" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Equality" OutputArgument="Result" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+              <uta:VerifyControlAttribute.ActivityToTest>
+                <ActivityAction>
+                  <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="tooltip" DisplayName="Get Attribute 'TextField Balance'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="GetAttribute_1">
+                    <ui:GetAttribute.Result>
+                      <OutArgument x:TypeArguments="x:Object">
+                        <VariableReference x:TypeArguments="x:Object">
+                          <VariableReference.Variable>
+                            <Variable x:TypeArguments="x:Object" x:Name="__ReferenceID0" Name="Result" />
+                          </VariableReference.Variable>
+                        </VariableReference>
+                      </OutArgument>
+                    </ui:GetAttribute.Result>
+                    <ui:GetAttribute.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1c972d75-0f0d-4f98-95a2-73156aee161b" InformativeScreenshot="a676f183d0ac6d225b92e3b2e6538155" Selector="&lt;sap id='usr/txtRF05A-AMPEL' /&gt;&#xD;&#xA;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:GetAttribute.Target>
+                  </ui:GetAttribute>
+                </ActivityAction>
+              </uta:VerifyControlAttribute.ActivityToTest>
+              <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                <ActivityFunc x:TypeArguments="x:Object">
+                  <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_1">
+                    <uta:ArgumentsBridge.Input>
+                      <InArgument x:TypeArguments="x:Object">
+                        <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID0}" />
+                      </InArgument>
+                    </uta:ArgumentsBridge.Input>
+                  </uta:ArgumentsBridge>
+                </ActivityFunc>
+              </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+              <uta:VerifyControlAttribute.Expression>
+                <InArgument x:TypeArguments="x:String">["Balance equals zero"]</InArgument>
+              </uta:VerifyControlAttribute.Expression>
+            </uta:VerifyControlAttribute>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp ContentHash="0GIoF7FJjEyRFRz59AoGzA" FilePath="C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE8SURBVFhHYxgFo2AUjIJBAxxrVls61ay5T2dcC7Ue7AAnoMB/emHHmjWz7KtXMkGtp68DgJbPsCtfzQi1GgLo5QCg5dMcy1cgLH//5UcECG89fa+5dsnR/5Ti0nkH/ztWrcJuefWaKXYVq1B9/v7Lz//Uwk/ffP6f3LX2v335cmyWT7KqQPI5DGAziBwMsjy+ddl/m6IFQMtWo1s+wbZ4CablIIDNMFLxk9ef/se1LMVuec2aPrMStGBHBtgMJAWDLI8FWV6M1fIeqDW4AdCQxSB89f7LfWsPXfm/9uBlknBsCzDYsVlevboLagVxwKZovotd6ZL/diWLScL25cuwWL6mA2os8QBoCFXKAWCwt0GNJA1QqSBqhhpHOqDUAUCfN0KNIg8AHaAJNGg+mTgXaswoGAWjYBSQCBgYAMLf0dVJBbU9AAAAAElFTkSuQmCC" InformativeScreenshot="edf9ef320e573b900295ef9083e2682d.png" Reference="T963zeQNOE6wmug06OJIIg/8A0-sNO1ukqWM5R25s3aDw" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710'/&gt;" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

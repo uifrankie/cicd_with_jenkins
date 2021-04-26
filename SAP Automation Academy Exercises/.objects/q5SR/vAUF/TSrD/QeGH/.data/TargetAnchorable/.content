@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="U1tsXdMZiEas4V4U8t-HyQ" DesignTimeRectangle="1807, 98, 52, 28" FriendlyName="'SAP.Toolbar.1'" FullSelectorArgument="&lt;sap id='titl/shellcont/shell' /&gt;" FuzzySelectorArgument="&lt;sap id='titl/shellcont/shell' check:text='SAP.Toolbar.1' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Create Purchase Order' /&gt;" SearchSteps="Selector" Text="SAP.Toolbar.1" TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0cruvbmKh7U-3iyAZsZvCcg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="962b3f46dded1abe3f8649fd139b389b.png" xmlns="">0kS7btZtUnkqDf06afeCxxQ</imageRef>
+</TargetAnchorable>

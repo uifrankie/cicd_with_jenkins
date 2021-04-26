@@ -1,0 +1,17 @@
+﻿{
+  "Id": "tY20fsYVR06GAurg5pPFbQ",
+  "Reference": "T963zeQNOE6wmug06OJIIg/tY20fsYVR06GAurg5pPFbQ",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "Item Detail Tabs",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-22T13:32:26.8820193Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T13:33:58.5660184Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

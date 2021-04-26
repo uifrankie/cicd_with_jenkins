@@ -1,0 +1,14 @@
+﻿{
+  "Id": "_ldqWZI5EU2GBG21mqdAWQ",
+  "Reference": "T963zeQNOE6wmug06OJIIg/_ldqWZI5EU2GBG21mqdAWQ",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "Purchasing Org",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-21T08:21:33.389113Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-21T08:21:33.389113Z"
+}

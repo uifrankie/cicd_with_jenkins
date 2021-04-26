@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="JXyKb65GRkiY7YrQRbTTdA" DesignTimeRectangle="44, 212, 36, 36" ElementType="Text" FriendlyName="'001'" FullSelectorArgument="&lt;sap id='usr/lbl[1,3]' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/lbl[1,3]' check:text='001' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32770' title='Purchasing Group 42 Entries' idx='*' /&gt;" SearchSteps="Selector" Text="001" TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0lshg7eug-EGbdMRGYunW9A</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="684a659cbe12fd29338f576af273dc8c.png" xmlns="">0D3qSawqZq0e28JVc7pdXpg</imageRef>
+</TargetAnchorable>

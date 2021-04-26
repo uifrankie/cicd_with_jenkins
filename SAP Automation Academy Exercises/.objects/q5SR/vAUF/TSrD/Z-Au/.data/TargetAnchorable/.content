@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="ZzpWQai2_0id-J1nh3ejOg" DesignTimeRectangle="222, 436, 409, 25" ElementType="DropDown" FriendlyName="'[ 11'" FullSelectorArgument="&lt;sap id='usr/subSUB0:SAPLMEGUI:*/subSUB3:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1301/subSUB1:SAPLMEGUI:6000/cmbDYN_6000-LIST' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/subSUB0:SAPLMEGUI:0015/subSUB3:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1301/subSUB1:SAPLMEGUI:6000/cmbDYN_6000-LIST' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Create Purchase Order' /&gt;" SearchSteps="Selector" Text="[ 11 ] TG12 , Trad.Good 12,Reorder Point,Reg.Trad." TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0Vepd8H0nBUWlRqdhoKIHtw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="120900b3f1d1e57beb2732da16c25cc6.png" xmlns="">0Hw5LLQOIU0iC1l8y1_a7Kg</imageRef>
+</TargetAnchorable>

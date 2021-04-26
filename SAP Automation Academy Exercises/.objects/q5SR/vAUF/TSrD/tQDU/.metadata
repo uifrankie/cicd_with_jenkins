@@ -1,0 +1,14 @@
+﻿{
+  "Id": "tQDU8NCfTka-XuQYXr7BJg",
+  "Reference": "T963zeQNOE6wmug06OJIIg/tQDU8NCfTka-XuQYXr7BJg",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "Header Note Textarea",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-22T03:50:30.9466854Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T03:50:30.9466854Z"
+}

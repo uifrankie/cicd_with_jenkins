@@ -1,0 +1,14 @@
+﻿{
+  "Id": "kiltKCt5dk-pybX9ZGW-mA",
+  "Reference": "T963zeQNOE6wmug06OJIIg/kiltKCt5dk-pybX9ZGW-mA",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "Header Note",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-22T03:48:59.2392238Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T03:48:59.2392238Z"
+}

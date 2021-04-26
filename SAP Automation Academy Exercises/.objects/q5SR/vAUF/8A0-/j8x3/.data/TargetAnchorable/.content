@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="ZLrbZCR1sEGCjG0FRpie9A" DesignTimeRectangle="436, 989, 112, 36" ElementType="DropDown" FriendlyName="'Debit'" FullSelectorArgument="[String.Format(&quot;&lt;sap colTooltip='Debit/Credit ind' id='usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE' tableRow='{0}' /&gt;&quot;, TableRow)]" FuzzySelectorArgument="&lt;sap colTooltip='Debit/Credit ind' id='usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" Text="Debit" TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0q9LgIIquxkueO4gjW2Boxw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="c4e9039289ff4653abb0f0ef6d8fa026.png" xmlns="">0V0riwZBwYUSWSPF-2vKAIA</imageRef>
+</TargetAnchorable>

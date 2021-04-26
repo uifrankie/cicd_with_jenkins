@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="B8wSIDQ9GEyHzsOMApdcpA" DesignTimeRectangle="278, 750, 685, 37" ElementType="InputBox" FriendlyName="'CTextField  Item Text'" FullSelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/ctxtINVFO-SGTXT' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/tabsTS/tabpMAIN/ssubPAGE:SAPLFDCB:0010/ctxtINVFO-SGTXT' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0hxyxksrLI0aIRCofzgYVMw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="a16d1fba00008128d57b4a5d5656601d.png" xmlns="">01uPxv2iA4UOZbfNFZATqAg</imageRef>
+</TargetAnchorable>

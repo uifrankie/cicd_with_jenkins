@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="hftWouQlv0G25ks2YsZhIg" DesignTimeRectangle="127, 261, 1865, 471" ElementType="DropDown" FriendlyName="'TabStrip  HEADER_DETAIL'" FullSelectorArgument="&lt;sap id='usr/subSUB0:SAPLMEGUI:0013/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/subSUB0:SAPLMEGUI:0013/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Create Purchase Order' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0RF8S8JO830m2v394wi7MKQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="82cbd9a1aa527830a89aa3b1c9d9ae19.png" xmlns="">0LoQwVE5xOEekrl7AiGS9ag</imageRef>
+</TargetAnchorable>

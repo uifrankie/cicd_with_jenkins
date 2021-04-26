@@ -1,0 +1,16 @@
+﻿{
+  "Id": "exMCSKq1xUmlAt2dWiPykA",
+  "Reference": "T963zeQNOE6wmug06OJIIg/exMCSKq1xUmlAt2dWiPykA",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/8A0-sNO1ukqWM5R25s3aDw",
+  "Name": "ItemTable - GL acct",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-23T09:32:48.8774343Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-23T09:45:15.7050207Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

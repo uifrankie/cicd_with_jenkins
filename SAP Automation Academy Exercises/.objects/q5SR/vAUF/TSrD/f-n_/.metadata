@@ -1,0 +1,14 @@
+﻿{
+  "Id": "f-n_moEcukKukQeRDy5fUQ",
+  "Reference": "T963zeQNOE6wmug06OJIIg/f-n_moEcukKukQeRDy5fUQ",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "Create Note Dialog - Check Mark Button",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-22T14:05:22.2375369Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T14:05:22.2375369Z"
+}

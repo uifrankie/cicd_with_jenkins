@@ -1,0 +1,14 @@
+﻿{
+  "Id": "Euh8BqYgwEedAHDYb0BJTg",
+  "Reference": "T963zeQNOE6wmug06OJIIg/Euh8BqYgwEedAHDYb0BJTg",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "ItemTable - Button Collapse",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-22T15:28:38.5038433Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T15:28:38.5038433Z"
+}

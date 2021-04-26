@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="7bGj_HZTUEWSzOpZEZ2jvQ" DesignTimeRectangle="115, 501, 384, 35" FriendlyName="'STANDARD 4_0100'" FullSelectorArgument="&lt;sap id='shellcont/shell' relpath='Screen variants for items/STANDARD 4_0100               Standard 4' /&gt;&lt;sap itemId='Column1' /&gt;" FuzzySelectorArgument="&lt;sap id='shellcont/shell' relpath='Screen variants for items/STANDARD 4_0100               Standard 4' /&gt;&lt;sap itemId='Column1' check:text='STANDARD 4_0100               Standard 4' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" Text="STANDARD 4_0100               Standard 4" TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0ikSXNsVXpkeYDbJitDB1Bw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="be00972abf2c03702a669a240735fc7c.png" xmlns="">0DXxkZEcplEeThq3NjaodTg</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,14 @@
+﻿{
+  "Id": "ndTaeNI_pkGqPUNtzCW-eQ",
+  "Reference": "T963zeQNOE6wmug06OJIIg/ndTaeNI_pkGqPUNtzCW-eQ",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "Click 'Texts'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-22T03:41:04.3941643Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T03:41:04.3941643Z"
+}

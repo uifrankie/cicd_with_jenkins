@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="FcTTHSQE20m-u4TkHa83hQ" DesignTimeRectangle="300, 273, 205, 24" ElementType="InputBox" FriendlyName="'CTextField  Material'" FullSelectorArgument="[String.Format(&quot;&lt;sap colTooltip='Material' id='usr/subSUB0:SAPLMEGUI:*/subSUB2:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1211/tblSAPLMEGUITC_1211' tableRow='{0}' /&gt;&quot;, TableRow)]" FuzzySelectorArgument="&lt;sap colTooltip='Material' id='usr/subSUB0:SAPLMEGUI:0013/subSUB2:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1211/tblSAPLMEGUITC_1211' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Create Purchase Order' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0BSS8vVPIgU6jNjHhMrvkOg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="ec7bc21da3b2fe7827f72cf8d5d56e78.png" xmlns="">0ihY9JT48fk2sgQCxOMBr3w</imageRef>
+</TargetAnchorable>

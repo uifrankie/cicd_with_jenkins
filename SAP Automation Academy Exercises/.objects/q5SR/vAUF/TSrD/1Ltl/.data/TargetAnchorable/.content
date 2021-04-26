@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="X68Fe3O8X0KyazzYZbqhgg" DesignTimeRectangle="1218, 561, 55, 24" ElementType="InputBox" FriendlyName="'TextField  Currency'" FullSelectorArgument="&lt;sap colTooltip='Currency' id='usr/subSUB0:SAPLMEGUI:*/subSUB2:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1211/tblSAPLMEGUITC_1211' tableRow='0' /&gt;" FuzzySelectorArgument="&lt;sap colTooltip='Currency' id='usr/subSUB0:SAPLMEGUI:0016/subSUB2:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1211/tblSAPLMEGUITC_1211' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Create Purchase Order' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">06eIDe8J1REaHIerIh9BEaA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="102610e05791af02d9587267301fcadb.png" xmlns="">0rwrsNxCYnUurVzpAbX0Lzw</imageRef>
+</TargetAnchorable>

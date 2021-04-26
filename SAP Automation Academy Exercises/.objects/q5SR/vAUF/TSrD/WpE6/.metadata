@@ -1,0 +1,17 @@
+﻿{
+  "Id": "WpE685c4tkmBlN5QR4u8kA",
+  "Reference": "T963zeQNOE6wmug06OJIIg/WpE685c4tkmBlN5QR4u8kA",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "Name": "ItemTable - Per",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-22T14:51:26.5396156Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-22T14:51:49.9916336Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

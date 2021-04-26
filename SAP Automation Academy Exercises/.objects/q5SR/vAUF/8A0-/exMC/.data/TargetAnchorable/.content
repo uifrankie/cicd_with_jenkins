@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="Q-SkB04e5EW6jaQJZ5MsJA" DesignTimeRectangle="120, 989, 157, 36" ElementType="InputBox" FriendlyName="'CTextField  G/L acct'" FullSelectorArgument="[String.Format(&quot;&lt;sap colTooltip='G/L Account' id='usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE' tableRow='{0}' /&gt;&quot;, TableRow)]" FuzzySelectorArgument="&lt;sap colTooltip='G/L Account' id='usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Enter Vendor Invoice: Company Code 1710' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0Vco4xysO7UaxFk9JTOlSqA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="8e45d6f094a3ff1c339b40ad9e9ebe59.png" xmlns="">0FVo0Tfyf_0Ox-aj53m44jA</imageRef>
+</TargetAnchorable>

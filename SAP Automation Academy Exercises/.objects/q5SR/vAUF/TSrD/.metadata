@@ -1,0 +1,15 @@
+﻿{
+  "Id": "TSrDkdiamkKKOTxgMcoMeg",
+  "Reference": "T963zeQNOE6wmug06OJIIg/TSrDkdiamkKKOTxgMcoMeg",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/vAUF91EmBUGnz3sZPsNImQ",
+  "Name": "Create Purchase Order",
+  "Type": "Screen",
+  "Created": "2021-04-21T08:13:32.1235573Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-21T08:13:40.4924445Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

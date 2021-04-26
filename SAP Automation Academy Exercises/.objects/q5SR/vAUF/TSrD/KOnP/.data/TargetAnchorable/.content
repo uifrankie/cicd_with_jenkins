@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="ARfTDWsmhU6Hqs1_FfpueQ" DesignTimeRectangle="582, 148, 279, 25" ElementType="InputBox" FriendlyName="'17386001 US TM Carrier1'" FullSelectorArgument="&lt;sap id='usr/subSUB0:SAPLMEGUI:*/subSUB0:SAPLMEGUI:0030/subSUB1:SAPLMEGUI:1105/ctxtMEPO_TOPLINE-SUPERFIELD' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/subSUB0:SAPLMEGUI:0013/subSUB0:SAPLMEGUI:0030/subSUB1:SAPLMEGUI:1105/ctxtMEPO_TOPLINE-SUPERFIELD' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Create Purchase Order' /&gt;" SearchSteps="Selector" Text="17386001 US TM Carrier1" TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0nvqG2R9iE0WvhDLWMpU3Ng</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="b2d676379717fff105ca95edb4aca53f.png" xmlns="">0WiRVlVPOQEa3VM-5rBNubQ</imageRef>
+</TargetAnchorable>

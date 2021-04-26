@@ -1,0 +1,17 @@
+.settings
+.vs
+.cache
+
+# ".objects" folder is non-source folder for .NET, but it is part of the source for UiPath projects storing Object Repository
+# .objects
+
+**/bin/Debug
+**/bin/Release
+**/obj/Debug
+**/obj/Release
+**/Exceptions_Screenshots
+
+# Ignore UiPath folder ".local" which stores cache and local Studio things. However "PositionData" contains Document Understanding templates which are actually some real parts of the project.
+
+**/.local/*
+!**/.local/PositionData
