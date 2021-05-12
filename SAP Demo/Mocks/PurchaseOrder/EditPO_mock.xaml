@@ -99,7 +99,7 @@
     </sap:WorkflowViewStateService.ViewState>
     <utam:MockActivity DisplayName="Mock Log Message" MockedActivityIdRef="LogMessage_7">
       <utam:MockActivity.MockedActivity>
-        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1523,91" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[&quot;Edit PO begins (2021-05-12c)&quot;]" />
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1523,91" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[&quot;Edit PO begins (done with Feature X)&quot;]" />
       </utam:MockActivity.MockedActivity>
       <Sequence sap:VirtualizedContainerService.HintSize="376,383" sap2010:WorkflowViewState.IdRef="">
         <sap:WorkflowViewStateService.ViewState>
