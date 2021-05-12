@@ -96,7 +96,7 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1523,91" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[&quot;Edit PO begins (2021-05-12)&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1523,91" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[&quot;Edit PO begins (2021-05-12b)&quot;]" />
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1523,91" sap2010:WorkflowViewState.IdRef="LogMessage_20" Message="[&quot;another log&quot;]" />
     <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="1523,646" sap2010:WorkflowViewState.IdRef="Sequence_29">
       <sap:WorkflowViewStateService.ViewState>
