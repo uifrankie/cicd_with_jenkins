@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp ContentHash="LTdjH-HxwUCyITBvWmiOCg" FilePath="C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe" Selector="&lt;wnd app='saplogon.exe' cls='#32770' title='Select Document' idx='*'/&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0CMA-Ho8m-0-tJ90GYX6hag</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="ec150097f70479e17ec87ac8f671bd13.png" xmlns="">0dD5w_rUApkmXYJMq-xDyTQ</imageRef>
+</TargetApp>

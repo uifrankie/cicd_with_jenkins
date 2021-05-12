@@ -1,0 +1,15 @@
+﻿{
+  "Id": "jeZj5HffhUqylT2AwPb50w",
+  "Reference": "T963zeQNOE6wmug06OJIIg/jeZj5HffhUqylT2AwPb50w",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/vAUF91EmBUGnz3sZPsNImQ",
+  "Name": "Log off Confirm Dialog",
+  "Type": "Screen",
+  "Created": "2021-04-27T06:56:51.8555349Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-27T06:58:05.009704Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

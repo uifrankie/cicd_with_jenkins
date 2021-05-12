@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="2DE0QpCjLkufu4-ap9WQvA" DesignTimeRectangle="201, 172, 119, 27" ElementType="Button" FriendlyName="'No'" FullSelectorArgument="&lt;sap id='usr/btnSPOP-OPTION2' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/btnSPOP-OPTION2' check:text='No' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32770' title='Exit Document' idx='*' /&gt;" SearchSteps="Selector" Text="No" TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">03qW-AICbNki-sARjUeGd5A</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="8a0d5c452fa02c11258a3c2ba0cd3f7c.png" xmlns="">0vhJj6gRc20GWSzvIzvpCjw</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "8YU1qrpNN02kwGHOK2_S_A",
+  "Reference": "T963zeQNOE6wmug06OJIIg/8YU1qrpNN02kwGHOK2_S_A",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/jeZj5HffhUqylT2AwPb50w",
+  "Name": "Yes Button",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-27T06:58:14.34057Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-27T06:58:30.6638305Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

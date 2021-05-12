@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="Lo1cY17KFEalM03KSdQQSw" DesignTimeRectangle="71, 77, 509, 25" ElementType="Text" FriendlyName="'No data changed'" FullSelectorArgument="&lt;sap id='usr/txtMESSTXT1' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/txtMESSTXT1' check:text='No data changed' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32770' title='Information' idx='*' /&gt;" SearchSteps="Selector" Text="No data changed" TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0NMPjnfp7IEW5dGN9Hyvomw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="2d8bf50d20146a63129289a0b3e2e2db.png" xmlns="">05gNm2LO-YE-2iEjbtUEd1A</imageRef>
+</TargetAnchorable>

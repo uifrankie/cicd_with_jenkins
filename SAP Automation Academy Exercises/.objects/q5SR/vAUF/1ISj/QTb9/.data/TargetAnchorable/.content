@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable ContentHash="aADxyWJVcEisWAo2n1qvjw" DesignTimeRectangle="82, 527, 1591, 125" ElementType="Table" FriendlyName="'TableControl  SAPLMEGUI…'" FullSelectorArgument="&lt;sap id='usr/subSUB0:SAPLMEGUI:0010/subSUB2:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1211/tblSAPLMEGUITC_1211' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Standard PO 4500001209 Created by Franky Finance' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
-  <imageRef attrName="InformativeScreenshot" originalValue="05bbcc527fe5d3b4932a861adac7dbe0.png" xmlns="">0PR2mwyUNo0eQfb1MBeTR4Q</imageRef>
-</TargetAnchorable>

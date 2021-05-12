@@ -1,0 +1,16 @@
+﻿{
+  "Id": "1ISjP4nkb0ScOfxeWrLqPw",
+  "Reference": "T963zeQNOE6wmug06OJIIg/1ISjP4nkb0ScOfxeWrLqPw",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/vAUF91EmBUGnz3sZPsNImQ",
+  "Name": "ME23N Display Purchase Order",
+  "Type": "Screen",
+  "Created": "2021-04-26T07:56:52.8305234Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-27T05:02:26.6589476Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

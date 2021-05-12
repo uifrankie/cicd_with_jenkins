@@ -1,0 +1,12 @@
+﻿{
+  "Id": "YvIQBHvpNky5l41GUgRYOA",
+  "Reference": "T963zeQNOE6wmug06OJIIg/YvIQBHvpNky5l41GUgRYOA",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/vAUF91EmBUGnz3sZPsNImQ",
+  "Name": "Exit Document Window",
+  "Type": "Screen",
+  "Created": "2021-04-27T08:30:50.275291Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-27T08:30:50.275291Z"
+}

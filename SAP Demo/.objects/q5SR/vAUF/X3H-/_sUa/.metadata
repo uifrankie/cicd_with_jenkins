@@ -1,0 +1,13 @@
+﻿{
+  "Id": "_sUa3w0SgUWsQt4TUkMdaQ",
+  "Reference": "T963zeQNOE6wmug06OJIIg/_sUa3w0SgUWsQt4TUkMdaQ",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/X3H-lBby90mqaacakzluFA",
+  "Name": "ItemTable - PO Quantity",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-27T05:05:14.9404361Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-27T05:05:14.9404361Z"
+}

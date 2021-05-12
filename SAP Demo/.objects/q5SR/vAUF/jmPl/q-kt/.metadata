@@ -1,0 +1,16 @@
+﻿{
+  "Id": "q-ktjZTliUe_dN9j0JEtSw",
+  "Reference": "T963zeQNOE6wmug06OJIIg/q-ktjZTliUe_dN9j0JEtSw",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/jmPla9_R8U2WfaCns_hAcg",
+  "Name": "PO Number",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-27T01:42:33.1426022Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-27T01:42:54.8297294Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="aDb1hBFPQkiyIjwBtinv5A" DesignTimeRectangle="17, 57, 839, 280" ElementType="Toolbar" FriendlyName="'UserArea  usr'" FullSelectorArgument="&lt;sap id='usr' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32770' title='Messages' idx='*' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="InformativeScreenshot" originalValue="c5cb5e214739cc3c30e4b3c061568bb4.png" xmlns="">0d0kAD8PPrk6lzZORC4UJAA</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp ContentHash="OBNCzRLX0U2qHW_tcSPcWg" FilePath="C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe" Selector="&lt;wnd app='saplogon.exe' cls='#32770' title='Exit Document' idx='*'/&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0Ww6PEYq_eU-aSNeDFoqOiw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="b05afbfa398a067ad245fd1cf288d13b.png" xmlns="">0paLb5kJyi0STQDThRi5yQQ</imageRef>
+</TargetApp>

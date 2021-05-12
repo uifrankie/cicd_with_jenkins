@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="7jnwd-r9-0WiF3dSbqzvsQ" DesignTimeRectangle="305, 272, 112, 26" ElementType="Button" FriendlyName="'Other Document'" FullSelectorArgument="&lt;sap id='tbar[0]/btn[0]' /&gt;" FuzzySelectorArgument="&lt;sap id='tbar[0]/btn[0]' check:text='Other Document' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32770' title='Select Document' idx='*' /&gt;" SearchSteps="Selector" Text="Other Document" TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">05Pb79qUc5EyI1G9SoOl1hg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="7c827fb8620518bea973f1ce7e7f3f21.png" xmlns="">0505A886Bw0u708b4rhslcg</imageRef>
+</TargetAnchorable>

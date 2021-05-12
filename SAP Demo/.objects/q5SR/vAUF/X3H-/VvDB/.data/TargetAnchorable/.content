@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="83dpmVWiGUiM7q_fzVv09A" DesignTimeRectangle="1856, 1007, 53, 26" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Footer' /&gt;&lt;wnd cls='Button' title='Cancel' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Footer' /&gt;&lt;wnd cls='Button' title='Cancel' check:text='unchecked' /&gt;" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Standard PO 4500001210 Created by Franky Finance' /&gt;" SearchSteps="Selector" Text="unchecked" TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">07GtHorD4kkaJqkPCA00TfA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="a94e4795257392a349b4c045805e3395.png" xmlns="">0mLYc78RFCEWr8WNIj8IYeg</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,17 @@
+﻿{
+  "Id": "jP1cHikppUeZ8tILZjKTdA",
+  "Reference": "T963zeQNOE6wmug06OJIIg/jP1cHikppUeZ8tILZjKTdA",
+  "ParentRef": "T963zeQNOE6wmug06OJIIg/Q-dbGwo9BUmICqEijIDgWQ",
+  "Name": "Messages Table",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-04-27T06:05:11.6133126Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-04-27T06:05:23.6490601Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
