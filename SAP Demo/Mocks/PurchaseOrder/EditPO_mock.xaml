@@ -9,7 +9,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1554.66666666667,7026.66666666667</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1555,7010</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>EditPO_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="64">
@@ -90,7 +90,7 @@
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Precondition: an existing PO&#xA;&#xA;in_PONumber: the PO number of the exisitng PO&#xA;&#xA;more annoations&#xA;" DisplayName="EditPO" sap:VirtualizedContainerService.HintSize="1564.66666666667,6862" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Precondition: an existing PO&#xA;&#xA;in_PONumber: the PO number of the exisitng PO&#xA;&#xA;more annoations&#xA;" DisplayName="EditPO" sap:VirtualizedContainerService.HintSize="1565,6845" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -99,7 +99,7 @@
     </sap:WorkflowViewStateService.ViewState>
     <utam:MockActivity DisplayName="Mock Log Message" MockedActivityIdRef="LogMessage_7">
       <utam:MockActivity.MockedActivity>
-        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1522.66666666667,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[&quot;Edit PO begins&quot;]" />
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1523,91" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[&quot;Edit PO begins (2021-05-12c)&quot;]" />
       </utam:MockActivity.MockedActivity>
       <Sequence sap:VirtualizedContainerService.HintSize="376,383" sap2010:WorkflowViewState.IdRef="">
         <sap:WorkflowViewStateService.ViewState>
@@ -126,8 +126,8 @@
         </Assign>
       </Sequence>
     </utam:MockActivity>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1522.66666666667,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_20" Message="[&quot;another log&quot;]" />
-    <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="1522.66666666667,646" sap2010:WorkflowViewState.IdRef="Sequence_29">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1523,91" sap2010:WorkflowViewState.IdRef="LogMessage_20" Message="[&quot;another log&quot;]" />
+    <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="1523,646" sap2010:WorkflowViewState.IdRef="Sequence_29">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
