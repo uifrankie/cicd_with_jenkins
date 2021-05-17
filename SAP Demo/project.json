@@ -48,6 +48,16 @@
         "testCaseId": "fea0bd16-6194-4c9e-bfea-616b3c84eda8",
         "dataVariationFilePath": ".variations\\EditPO_TestData_Sheet1.json",
         "fileName": "TestCases\\EditPO_Test.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8ca6b809-0f99-4ed5-9c0e-da49e7c2e608",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8d80ca20-0fd2-4fb2-8f57-6f23d4a1ece1",
+        "fileName": "TestCases\\Main_Test.xaml"
       }
     ],
     "modernBehavior": true

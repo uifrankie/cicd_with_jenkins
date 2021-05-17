@@ -1,0 +1,159 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Logoff" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1090.66666666667,1014.66666666667" sap2010:WorkflowViewState.IdRef="Logoff_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ucas="clr-namespace:UiPath.Core.Activities.SAP;assembly=UiPath.UiAutomation.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Core.Activities.SAP</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Logoff" sap:VirtualizedContainerService.HintSize="476,850" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ucas:SelectMenuItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Select Menu Item 'Log off'" sap:VirtualizedContainerService.HintSize="434,160.666666666667" sap2010:WorkflowViewState.IdRef="SelectMenuItem_1" Item="System/Log Off">
+      <ucas:SelectMenuItem.Items>
+        <scg:List x:TypeArguments="x:String" Capacity="50">
+          <x:String>Purchase Order/Other Purchase Order</x:String>
+          <x:String>Purchase Order/Create</x:String>
+          <x:String>Purchase Order/Display\/Change</x:String>
+          <x:String>Purchase Order/Save</x:String>
+          <x:String>Purchase Order/Save and Output</x:String>
+          <x:String>Purchase Order/Check</x:String>
+          <x:String>Purchase Order/Exit</x:String>
+          <x:String>Edit/Display Range</x:String>
+          <x:String>Edit/Cancel</x:String>
+          <x:String>Goto/Messages</x:String>
+          <x:String>Goto/Print Preview</x:String>
+          <x:String>Goto/Back</x:String>
+          <x:String>Environment/Header Changes</x:String>
+          <x:String>Environment/Item Changes</x:String>
+          <x:String>Environment/Material</x:String>
+          <x:String>Environment/Material Stocks</x:String>
+          <x:String>Environment/Availability</x:String>
+          <x:String>Environment/Supplier</x:String>
+          <x:String>Environment/Supplier Evaluation</x:String>
+          <x:String>Environment/Info Record</x:String>
+          <x:String>Environment/Quota Arrangement</x:String>
+          <x:String>Environment/Source List</x:String>
+          <x:String>Environment/Contract</x:String>
+          <x:String>Environment/RFQ\/Quotation</x:String>
+          <x:String>Environment/Purchase Requisition</x:String>
+          <x:String>Environment/Q Info Record</x:String>
+          <x:String>Environment/AC Commitment Documents</x:String>
+          <x:String>System/New GUI Window</x:String>
+          <x:String>System/Close GUI Window</x:String>
+          <x:String>System/List</x:String>
+          <x:String>System/Services for Object</x:String>
+          <x:String>System/Own Spool Requests</x:String>
+          <x:String>System/Own Jobs</x:String>
+          <x:String>System/Short Message</x:String>
+          <x:String>System/Status...</x:String>
+          <x:String>System/Log Off</x:String>
+          <x:String>Help/Product Assistance</x:String>
+          <x:String>Help/SAP Help Portal</x:String>
+          <x:String>Help/Release Notes</x:String>
+          <x:String>Help/SAP Support Portal</x:String>
+          <x:String>Help/Settings...</x:String>
+          <x:String>Goto/Original Batch/Create</x:String>
+          <x:String>Goto/Original Batch/Change</x:String>
+          <x:String>Goto/Original Batch/Display</x:String>
+          <x:String>System/User Profile/Hold Data</x:String>
+          <x:String>System/User Profile/Set Data</x:String>
+          <x:String>System/User Profile/Delete Data</x:String>
+          <x:String>System/User Profile/User Data</x:String>
+          <x:String>System/User Profile/Expand Favorites</x:String>
+          <x:String>System/Services/Reporting</x:String>
+        </scg:List>
+      </ucas:SelectMenuItem.Items>
+      <ucas:SelectMenuItem.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d13ee22b-4bb9-47cd-9a1e-e4e285bc22e9" InformativeScreenshot="fbf157bd1004bfe77dd2b5cd48d7e18c" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='*' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ucas:SelectMenuItem.Target>
+    </ucas:SelectMenuItem>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser 'Log off Confirm Dialog'" sap:VirtualizedContainerService.HintSize="434,557.333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,262.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Yes Button'" sap:VirtualizedContainerService.HintSize="334,168" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="WudIKtzLgUuZu0SGJq7IHg" DesignTimeRectangle="81, 172, 119, 27" ElementType="Button" FriendlyName="'Yes'" FullSelectorArgument="&lt;sap id='usr/btnSPOP-OPTION1' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/btnSPOP-OPTION1' check:text='Yes' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHsAAAAfCAYAAADHorIzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIiSURBVGhD7Zo7S1xBFIDdzh+gpLDTwsLCX5AfkF4QQZEtVARBUqawSK0QEAsLCwtdZfHRBKKV+IAEwSaViIaFBATdQnygYjHyzd4zzC7ZHzBnzgeHO69m+Oacey9MhzNUUyqVQphs5SBZaJL9r/7kxr4dup7yhuscWrVINPqmqq68eOR9/lc2E0hmYfXkj6vfvxQzRkrgsXJ45T1+GK8E2YwH2WQ0C0yyDu4eX13/9FaQjd8gm6wmow094FNk4zfIptZbVuuC0o1X4Nkk29CHyc4Ik50RKmWfXtz6PWweXxUjDWo3D657bN19XvlVjOSFStkwPH/gPn75XvQaILl3slr08kOtbMni5b3zpv787m/fzxG1siHOZNpxpnMIBmd3/V5ZEx8C2ozJ3Nz6WTGTNqplk80ii6yWd7i800Ui4/RlPm4j/tPXfd9OHfHKU51sQBb7iYW1ZjkwP7F04tscDNo/zv76vhbUywb2E3+ZI5ux1pADQObzgYd0gvUaYI/yzEp2a2a3Q0q8hizPUnb8zua9jkjKOE+CgyByZa3JTgT2E8sG+vI1LqUa8QTt+GvcyriRHCY7I0x2RpjsjGgr226q6KLtTRXuKO38rBU9QwNt76CNLBz424gPz2/FiJEyeByY2Q6y8Rtk86/ZNbrmhZPhVtLThNJNRiManyIbv0E2MMAJIOWp8RZpBvf/uSd+eX0fZEOTbEMfJjsjkN2IknsHPD8+IhP3BQEAAAAASUVORK5CYII=" InformativeScreenshot="8c0d5043e0d29571d0b1f7c4e4811bb0.png" Reference="T963zeQNOE6wmug06OJIIg/8YU1qrpNN02kwGHOK2_S_A" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32770' title='Log Off' idx='*' /&gt;" SearchSteps="Selector" Text="Yes" TextMethod="AttributeText" TextSelector="&lt;sap /&gt;" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp ContentHash="_umZ10f5Z0CQqyFg20KaTQ" FilePath="C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE8SURBVFhHYxgFo2AUjIJBAxxrVls61ay5T2dcC7Ue7AAnoMB/emHHmjWz7KtXMkGtp68DgJbPsCtfzQi1GgLo5QCg5dMcy1cgLH//5UcECG89fa+5dsnR/5Ti0nkH/ztWrcJuefWaKXYVq1B9/v7Lz//Uwk/ffP6f3LX2v335cmyWT7KqQPI5DGAziBwMsjy+ddl/m6IFQMtWo1s+wbZ4CablIIDNMFLxk9ef/se1LMVuec2aPrMStGBHBtgMJAWDLI8FWV6M1fIeqDW4AdCQxSB89f7LfWsPXfm/9uBlknBsCzDYsVlevboLagVxwKZovotd6ZL/diWLScL25cuwWL6mA2os8QBoCFXKAWCwt0GNJA1QqSBqhhpHOqDUAUCfN0KNIg8AHaAJNGg+mTgXaswoGAWjYBSQCBgYAMLf0dVJBbU9AAAAAElFTkSuQmCC" InformativeScreenshot="78dcae7a5c8164bc744ebd268e0469fd.png" Reference="T963zeQNOE6wmug06OJIIg/jeZj5HffhUqylT2AwPb50w" Selector="&lt;wnd app='saplogon.exe' cls='#32770' title='Log Off' idx='*'/&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

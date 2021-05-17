@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>900,1361.33333333333</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>900,1515.33333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Main_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="56">
@@ -72,17 +72,18 @@
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="418,1196.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="684,1350.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="GeneratedPONumber" />
       <Variable x:TypeArguments="sd:DataTable" Name="WorkingDataDT" />
+      <Variable x:TypeArguments="x:Boolean" Default="False" Name="IsProduction" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Get PO data from upstream data sources" sap:VirtualizedContainerService.HintSize="376,178.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Get PO data from upstream data sources" sap:VirtualizedContainerService.HintSize="642,178.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -90,21 +91,35 @@
       </sap:WorkflowViewStateService.ViewState>
       <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[WorkingDataDT]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="334,86.6666666666667" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="Data\Input\DataFromUpstream.xlsx" />
     </Sequence>
-    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke CreatePO workflow" sap:VirtualizedContainerService.HintSize="376,114" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="PurchaseOrder\CreatePO.xaml">
-      <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="sd:DataRow" x:Key="in_POData">[WorkingDataDT.Rows(0)]</InArgument>
-        <OutArgument x:TypeArguments="x:String" x:Key="out_GeneratedPONumber">[GeneratedPONumber]</OutArgument>
-      </ui:InvokeWorkflowFile.Arguments>
-    </ui:InvokeWorkflowFile>
-    <Sequence DisplayName="Write Excel Report" sap:VirtualizedContainerService.HintSize="376,607.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <If Condition="[IsProduction]" sap:VirtualizedContainerService.HintSize="642,268" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Then>
+        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke CreatePO workflow" sap:VirtualizedContainerService.HintSize="334,114" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="PurchaseOrder\CreatePO.xaml">
+          <ui:InvokeWorkflowFile.Arguments>
+            <InArgument x:TypeArguments="sd:DataRow" x:Key="in_POData">[WorkingDataDT.Rows(0)]</InArgument>
+            <OutArgument x:TypeArguments="x:String" x:Key="out_GeneratedPONumber">[GeneratedPONumber]</OutArgument>
+          </ui:InvokeWorkflowFile.Arguments>
+        </ui:InvokeWorkflowFile>
+      </If.Then>
+      <If.Else>
+        <Assign sap:VirtualizedContainerService.HintSize="262,62" sap2010:WorkflowViewState.IdRef="Assign_2">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:String">[GeneratedPONumber]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:String">4500001296</InArgument>
+          </Assign.Value>
+        </Assign>
+      </If.Else>
+    </If>
+    <Sequence DisplayName="Write Excel Report" sap:VirtualizedContainerService.HintSize="642,607.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_5">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Generated PO Number" DataTable="[WorkingDataDT]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1" />
-      <Assign sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Generated PO Number" DataTable="[WorkingDataDT]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_2" />
+      <Assign sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="Assign_3">
         <Assign.To>
           <OutArgument x:TypeArguments="x:Object">[WorkingDataDT.Rows(0)("Generated PO Number")]</OutArgument>
         </Assign.To>
@@ -112,7 +127,7 @@
           <InArgument x:TypeArguments="x:Object">[GeneratedPONumber]</InArgument>
         </Assign.Value>
       </Assign>
-      <Assign DisplayName="Assign out_ReportPath" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign DisplayName="Assign out_ReportPath" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="Assign_4">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">[out_ReportPath]</OutArgument>
         </Assign.To>
@@ -120,10 +135,10 @@
           <InArgument x:TypeArguments="x:String">Data\Output\Report.xlsx</InArgument>
         </Assign.Value>
       </Assign>
-      <ui:WriteRange AddHeaders="True" DataTable="[WorkingDataDT]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="334,114.666666666667" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" StartingCell="A1" WorkbookPath="[out_ReportPath]" />
+      <ui:WriteRange AddHeaders="True" DataTable="[WorkingDataDT]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="334,114.666666666667" sap2010:WorkflowViewState.IdRef="WriteRange_2" SheetName="Sheet1" StartingCell="A1" WorkbookPath="[out_ReportPath]" />
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Report written to: &quot; + out_ReportPath]" />
     </Sequence>
-    <Sequence DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="376,84.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="642,84.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
