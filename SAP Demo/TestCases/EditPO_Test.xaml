@@ -7,7 +7,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1416,1697</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1418,1571.33333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TestCase_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -78,7 +78,7 @@
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TestCase" sap:VirtualizedContainerService.HintSize="1426,1532" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TestCase" sap:VirtualizedContainerService.HintSize="1428,1406.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="[PONumber]" Name="PONumber" />
       <Variable x:TypeArguments="x:String" Name="OutputStatus" />
@@ -90,7 +90,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="1384,352" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="1386,206" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Boolean" Default="False" Name="GenerateNewPO" />
       </Sequence.Variables>
@@ -99,51 +99,47 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <If Condition="[GenerateNewPO]" sap:VirtualizedContainerService.HintSize="641,260" sap2010:WorkflowViewState.IdRef="If_1">
-        <If.Then>
-          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke CreatePO workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="PurchaseOrder\CreatePO.xaml">
-            <ui:InvokeWorkflowFile.Arguments>
-              <OutArgument x:TypeArguments="x:String" x:Key="out_GeneratedPONumber">[PONumber]</OutArgument>
-            </ui:InvokeWorkflowFile.Arguments>
-          </ui:InvokeWorkflowFile>
-        </If.Then>
-        <If.Else>
-          <Assign DisplayName="Assign PO Number" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_1">
-            <Assign.To>
-              <OutArgument x:TypeArguments="x:String">[PONumber]</OutArgument>
-            </Assign.To>
-            <Assign.Value>
-              <InArgument x:TypeArguments="x:String">4500001210</InArgument>
-            </Assign.Value>
-          </Assign>
-        </If.Else>
-      </If>
+      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke CreatePO workflow" sap:VirtualizedContainerService.HintSize="334,114" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="PurchaseOrder\CreatePO.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <OutArgument x:TypeArguments="x:String" x:Key="out_GeneratedPONumber">[PONumber]</OutArgument>
+        </ui:InvokeWorkflowFile.Arguments>
+      </ui:InvokeWorkflowFile>
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="1384,204" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="1386,206" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke EditPO_mock workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="PurchaseOrder\EditPO.xaml">
+      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke EditPO_mock workflow" sap:VirtualizedContainerService.HintSize="334,114" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="PurchaseOrder\EditPO.xaml">
         <ui:InvokeWorkflowFile.Arguments>
-          <InArgument x:TypeArguments="x:String" x:Key="in_PONumber">[PONumber]</InArgument>
-          <InArgument x:TypeArguments="x:Int32" x:Key="in_NewQuantity">[in_NewQuantity]</InArgument>
-          <OutArgument x:TypeArguments="x:String" x:Key="out_StatusType">[OutputStatus]</OutArgument>
-          <OutArgument x:TypeArguments="x:String" x:Key="out_StatusMessage">[OutputMessage]</OutArgument>
-          <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_ErrorMessageTable">[OutputMessageTable]</OutArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_PONumber">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="PONumber" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:Int32" x:Key="in_NewQuantity">
+            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="in_NewQuantity" />
+          </InArgument>
+          <OutArgument x:TypeArguments="x:String" x:Key="out_StatusType">
+            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="OutputStatus" />
+          </OutArgument>
+          <OutArgument x:TypeArguments="x:String" x:Key="out_StatusMessage">
+            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="OutputMessage" />
+          </OutArgument>
+          <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_ErrorMessageTable">
+            <mva:VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="OutputMessageTable" />
+          </OutArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
     </Sequence>
-    <Sequence sap2010:Annotation.AnnotationText="EditPO.xaml already contains the Verify XXX activities" DisplayName="... Then" sap:VirtualizedContainerService.HintSize="1384,804" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence sap2010:Annotation.AnnotationText="EditPO.xaml already contains the Verify XXX activities" DisplayName="... Then" sap:VirtualizedContainerService.HintSize="1386,822.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1342,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Result: &quot; + OutputStatus + &quot; - &quot; + OutputMessage]" />
-      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="1342,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1344,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Result: &quot; + OutputStatus + &quot; - &quot; + OutputMessage]" />
+      <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="1344,62.6666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
         <uta:VerifyExpressionWithOperator.FirstExpression>
           <InArgument x:TypeArguments="x:Object">[OutputStatus]</InArgument>
         </uta:VerifyExpressionWithOperator.FirstExpression>
@@ -151,23 +147,23 @@
           <InArgument x:TypeArguments="x:String">[in_ExpectedOutputStatus]</InArgument>
         </uta:VerifyExpressionWithOperator.SecondExpression>
       </uta:VerifyExpressionWithOperator>
-      <If Condition="[&quot;S&quot;.Equals(OutputStatus)]" sap:VirtualizedContainerService.HintSize="1342,449" sap2010:WorkflowViewState.IdRef="If_2">
+      <If Condition="[&quot;S&quot;.Equals(OutputStatus)]" sap:VirtualizedContainerService.HintSize="1344,462.666666666667" sap2010:WorkflowViewState.IdRef="If_2">
         <If.Then>
-          <Sequence sap:VirtualizedContainerService.HintSize="721,301" sap2010:WorkflowViewState.IdRef="Sequence_6">
+          <Sequence sap:VirtualizedContainerService.HintSize="722,308.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_6">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <If Condition="[Not string.IsNullOrWhiteSpace(in_ExpectedOutputMessage)]" sap:VirtualizedContainerService.HintSize="679,209" sap2010:WorkflowViewState.IdRef="If_3">
+            <If Condition="[Not string.IsNullOrWhiteSpace(in_ExpectedOutputMessage)]" sap:VirtualizedContainerService.HintSize="680,216.666666666667" sap2010:WorkflowViewState.IdRef="If_3">
               <If.Then>
-                <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[OutputMessage.Equals(String.Format(in_ExpectedOutputMessage, PONumber))]" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="[&quot;Result: {Result}; Actual Output Message: &quot; + OutputMessage + &quot;; Expected: &quot; + String.Format(in_ExpectedOutputMessage, PONumber)]" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[OutputMessage.Equals(String.Format(in_ExpectedOutputMessage, PONumber))]" sap:VirtualizedContainerService.HintSize="534,62.6666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="[&quot;Result: {Result}; Actual Output Message: &quot; + OutputMessage + &quot;; Expected: &quot; + String.Format(in_ExpectedOutputMessage, PONumber)]" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
               </If.Then>
             </If>
           </Sequence>
         </If.Then>
         <If.Else>
-          <Sequence sap:VirtualizedContainerService.HintSize="576,253" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence sap:VirtualizedContainerService.HintSize="576,256.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="ContainsExpectedMessage" />
             </Sequence.Variables>
@@ -176,7 +172,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Assign DisplayName="Check msg table against expected msg" sap:VirtualizedContainerService.HintSize="534,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+            <Assign DisplayName="Check msg table against expected msg" sap:VirtualizedContainerService.HintSize="534,62" sap2010:WorkflowViewState.IdRef="Assign_2">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:Boolean">[ContainsExpectedMessage]</OutArgument>
               </Assign.To>
@@ -184,7 +180,7 @@
                 <InArgument x:TypeArguments="x:Boolean">[OutputMessageTable.AsEnumerable.Any(Function(row) row("Message text").Equals(in_ExpectedOutputMessage))]</InArgument>
               </Assign.Value>
             </Assign>
-            <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_2" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+            <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="534,62.6666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_2" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
               <uta:VerifyExpressionWithOperator.FirstExpression>
                 <InArgument x:TypeArguments="x:Boolean">[ContainsExpectedMessage]</InArgument>
               </uta:VerifyExpressionWithOperator.FirstExpression>
